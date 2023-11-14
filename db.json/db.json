@@ -1,0 +1,39 @@
+{
+    "City's": [
+      {
+        "id": 1,
+        "City": "Seattle",
+        "Temperature": "333 st ne Seattle wa 99999",
+        "Wind speed": 9999999999,
+        "Condition": "Easley's Technical Books"
+      }, 
+      {
+        "id": 2,
+        "City": "Seattle",
+        "Temperature": "333 st ne Seattle wa 99999",
+        "Wind speed": 9999999999,
+        "Condition": "Easley's Technical Books"
+      }, 
+      {
+        "id": 3,
+        "City": "Seattle",
+        "Temperature": "333 st ne Seattle wa 99999",
+        "Wind speed": 9999999999,
+        "Condition": "Easley's Technical Books"
+      },
+      {
+        "id": 4,
+        "City": "Seattle",
+        "Temperature": "333 st ne Seattle wa 99999",
+        "Wind speed": 9999999999,
+        "Condition": "Easley's Technical Books"
+      },
+      {
+        "id": 5,
+        "City": "Seattle",
+        "Temperature": "333 st ne Seattle wa 99999",
+        "Wind speed": 9999999999,
+        "Condition": "Easley's Technical Books"
+      }
+    ]
+}
