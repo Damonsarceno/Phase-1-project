@@ -3,37 +3,47 @@
       {
         "id": 1,
         "City": "Seattle",
-        "Temperature": "333 st ne Seattle wa 99999",
-        "Wind speed": 9999999999,
-        "Condition": "Easley's Technical Books"
+        "Temperature-F": "48°",
+        "Temperature-C": "9°",
+        "Wind speed mph": "7",
+        "Wind speed km/h":"11",
+        "Condition": "Sunny"
       }, 
       {
         "id": 2,
-        "City": "Seattle",
-        "Temperature": "333 st ne Seattle wa 99999",
-        "Wind speed": 9999999999,
-        "Condition": "Easley's Technical Books"
+        "City": "Denver",
+        "Temperature-F": "68°",
+        "Temperature-C": "20°",
+        "Wind speed mph": "3",
+        "Wind speed km/h":"5",
+        "Condition": "Sunny"
       }, 
       {
         "id": 3,
-        "City": "Seattle",
-        "Temperature": "333 st ne Seattle wa 99999",
-        "Wind speed": 9999999999,
-        "Condition": "Easley's Technical Books"
+        "City": "Los Angeles",
+        "Temperature-F": "75°",
+        "Temperature-C": "24°",
+        "Wind speed mph": "5",
+        "Wind speed km/h":"8",
+        "Condition": "Sunny"
       },
       {
         "id": 4,
-        "City": "Seattle",
-        "Temperature": "333 st ne Seattle wa 99999",
-        "Wind speed": 9999999999,
-        "Condition": "Easley's Technical Books"
+        "City": "Miami",
+        "Temperature-F": "76°",
+        "Temperature-C": "24°",
+        "Wind speed mph": "20",
+        "Wind speed km/h":"35",
+        "Condition": "Light Rain/Wind"
       },
       {
         "id": 5,
-        "City": "Seattle",
-        "Temperature": "333 st ne Seattle wa 99999",
-        "Wind speed": 9999999999,
-        "Condition": "Easley's Technical Books"
+        "City": "New York",
+        "Temperature-F": "50°",
+        "Temperature-C": "10°",
+        "Wind speed mph": "6",
+        "Wind speed km/h":"10",
+        "Condition": "Fair"
       }
     ]
 }
