@@ -1,48 +1,48 @@
 {
-    "City's":[
+    "City's" : [
       {
         "id": 1,
         "location": "Seattle",
-        "Temperature-F": "48°",
-        "Temperature-C": "9°",
-        "Wind speed mph": "7",
-        "Wind speed km/h":"11",
+        "TemperatureF": "48°",
+        "TemperatureC": "9°",
+        "WindSpeedMph": "7 Mph",
+        "WindSpeedKmh":"11 km/h",
         "Condition": "Sunny"
       }, 
       {
         "id": 2,
         "location": "Denver",
-        "Temperature-F": "68°",
-        "Temperature-C": "20°",
-        "Wind speed mph": "3",
-        "Wind speed km/h":"5",
+        "TemperatureF": "68°",
+        "TemperatureC": "20°",
+        "WindSpeedMph": "3 Mph",
+        "WindSpeedKmh":"5 km/h",
         "Condition": "Sunny"
       }, 
       {
         "id": 3,
         "location": "Los Angeles",
-        "Temperature-F": "75°",
-        "Temperature-C": "24°",
-        "Wind speed mph": "5",
-        "Wind speed km/h":"8",
+        "TemperatureF": "75°",
+        "TemperatureC": "24°",
+        "WindSpeedMph": "5 Mph",
+        "WindSpeedKmh":"8 Km/h",
         "Condition": "Sunny"
       },
       {
         "id": 4,
         "location": "Miami",
-        "Temperature-F": "76°",
-        "Temperature-C": "24°",
-        "Wind speed mph": "20",
-        "Wind speed km/h":"35",
+        "TemperatureF": "76°",
+        "TemperatureC": "24°",
+        "WindSpeedMph": "20 Mph",
+        "WindSpeedKmh":"35 km/h",
         "Condition": "Light Rain/Wind"
       },
       {
         "id": 5,
         "location": "New York",
-        "Temperature-F": "50°",
-        "Temperature-C": "10°",
-        "Wind speed mph": "6",
-        "Wind speed km/h":"10",
+        "TemperatureF": "50°",
+        "TemperatureC": "10°",
+        "WindSpeedMph": "6 Mph",
+        "WindSpeedKmh":"10 km/h",
         "Condition": "Fair"
       }
     ]
