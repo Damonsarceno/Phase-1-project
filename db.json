@@ -1,8 +1,8 @@
 {
-    "City's": [
+    "City's":[
       {
         "id": 1,
-        "City": "Seattle",
+        "location": "Seattle",
         "Temperature-F": "48°",
         "Temperature-C": "9°",
         "Wind speed mph": "7",
@@ -11,7 +11,7 @@
       }, 
       {
         "id": 2,
-        "City": "Denver",
+        "location": "Denver",
         "Temperature-F": "68°",
         "Temperature-C": "20°",
         "Wind speed mph": "3",
@@ -20,7 +20,7 @@
       }, 
       {
         "id": 3,
-        "City": "Los Angeles",
+        "location": "Los Angeles",
         "Temperature-F": "75°",
         "Temperature-C": "24°",
         "Wind speed mph": "5",
@@ -29,7 +29,7 @@
       },
       {
         "id": 4,
-        "City": "Miami",
+        "location": "Miami",
         "Temperature-F": "76°",
         "Temperature-C": "24°",
         "Wind speed mph": "20",
@@ -38,7 +38,7 @@
       },
       {
         "id": 5,
-        "City": "New York",
+        "location": "New York",
         "Temperature-F": "50°",
         "Temperature-C": "10°",
         "Wind speed mph": "6",
