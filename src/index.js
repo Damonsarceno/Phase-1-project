@@ -22,7 +22,6 @@ function renderCitys (city) {
     h3.textContent = city.location;
    
 
-   
     const pTemp = document.createElement('p');
     pTemp.textContent = city.TemperatureF
    
@@ -38,8 +37,12 @@ function renderCitys (city) {
     const pWindK = document.createElement('p');
     pWindK.textContent = city.WindSpeedKmh
 
+    
+    const pCondition = document.createElement('p');
+    pCondition.textContent = city.Condition
 
 
-  li.append(h3, pTemp, pTempC, pWind, pWindK);
+
+  li.append(h3, pTemp, pTempC, pWind, pWindK, pCondition);
   document.getElementById('city-list').append(li);
 }
