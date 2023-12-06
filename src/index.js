@@ -12,6 +12,7 @@ fetch("http://localhost:3000/City's")
 
 
 
+
 function renderCitys (city) {
 
     const li = document.createElement('li');
@@ -37,15 +38,22 @@ function renderCitys (city) {
     const pCondition = document.createElement('p');
     pCondition.textContent = city.Condition
     
-    
+    const button = document.createElement('button');
+    button.textContent = "delete city"
 
-  li.append(h3, pTemp, pWind, pCondition);
+  li.append(h3, pTemp, pWind, pCondition, button);
   document.getElementById('city-list').append(li);
+  
+  button.addEventListener('click' , (e) => {
+    li.remove();
+  })
+  
 }
 
 
 
-
-//pTemp.addEventListener('mouseover', () => {
-  //if (pTemp === TemperatureF) {
-    //pTemp
+// pTemp.addEventListener('mouseover', () => {
+//   if (pTemp === TemperatureF) {
+//     pTemp
+//   }
+// });
