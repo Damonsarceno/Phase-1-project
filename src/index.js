@@ -1,5 +1,5 @@
 
-  
+
 
 fetch("http://localhost:3000/City's")
 .then(res => res.json())
@@ -24,25 +24,28 @@ function renderCitys (city) {
 
     const pTemp = document.createElement('p');
     pTemp.textContent = city.TemperatureF
-   
+    
 
-    const pTempC = document.createElement('p');
-    pTempC.textContent = city.TemperatureC
+   // const pTempC = document.createElement('p');
+   // pTempC.textContent = city.TemperatureC
     
 
     const pWind = document.createElement('p');
     pWind.textContent = city.WindSpeedMph
 
-
-    const pWindK = document.createElement('p');
-    pWindK.textContent = city.WindSpeedKmh
-
     
     const pCondition = document.createElement('p');
     pCondition.textContent = city.Condition
+    
+    
 
-
-
-  li.append(h3, pTemp, pTempC, pWind, pWindK, pCondition);
+  li.append(h3, pTemp, pWind, pCondition);
   document.getElementById('city-list').append(li);
 }
+
+
+
+
+//pTemp.addEventListener('mouseover', () => {
+  //if (pTemp === TemperatureF) {
+    //pTemp
