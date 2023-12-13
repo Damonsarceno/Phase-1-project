@@ -10,7 +10,7 @@
   .list-li {
     list-style: none;
     width: 200px;
-    box-shadow: 4px 4px 10px #c9c8c8;
+    box-shadow: 4px 4px 10px #0f25b7;
     padding: 5px;
     margin: 10px;
   }
@@ -19,3 +19,8 @@
     height: 70px;
   }
   
+  #image {
+    display: flex;
+    justify-content: center;
+  }
+

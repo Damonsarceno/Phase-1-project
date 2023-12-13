@@ -27,8 +27,8 @@ function renderCitys (city) {
     pTemp.textContent = city.TemperatureF
     
 
-   // const pTempC = document.createElement('p');
-   // pTempC.textContent = city.TemperatureC
+    const pTempC = document.createElement('p');
+    pTempC.textContent = city.TemperatureC
     
 
     const pWind = document.createElement('p');
