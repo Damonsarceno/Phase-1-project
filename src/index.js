@@ -47,13 +47,22 @@ function renderCitys (city) {
   button.addEventListener('click' , (e) => {
     li.remove();
   })
+
   
+    let image = document.createElement('img');
+    image.src = 'https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg';
+    image.addEventListener('load', (e) => {
+      document.body.append(image);
+    });
+
+    
+   
+  
+  //li.addEventListener('mouseover', () => {
+     //console.log('mouseover');
+//      if (pTemp === TemperatureF) {
+//        pTemp
+//    }
+//  });
 }
 
-
-
-// pTemp.addEventListener('mouseover', () => {
-//   if (pTemp === TemperatureF) {
-//     pTemp
-//   }
-// });
