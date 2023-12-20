@@ -8,11 +8,6 @@ fetch("http://localhost:3000/City's")
 
 })
 
-
-
-
-
-
 function renderCitys (city) {
 
     const li = document.createElement('li');
@@ -39,7 +34,7 @@ function renderCitys (city) {
     pCondition.textContent = city.Condition
     
     const button = document.createElement('button');
-    button.textContent = "delete city"
+    button.textContent = "Delete City"
 
   li.append(h3, pTemp, pWind, pCondition, button);
   document.getElementById('city-list').append(li);

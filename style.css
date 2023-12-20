@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(232, 179, 109);
+ }
+
 .list ul {
     margin: 10px;
     padding: 10px;
@@ -10,17 +14,30 @@
   .list-li {
     list-style: none;
     width: 200px;
-    box-shadow: 4px 4px 10px #0f25b7;
+    box-shadow: 4px 4px 10px #070606;
     padding: 5px;
     margin: 10px;
+    background-color: antiquewhite;
   }
   
   .list-li h3 {
-    height: 70px;
-  }
-  
-  #image {
-    display: flex;
-    justify-content: center;
+    height: 50px;
   }
 
+  h1 {
+  background-color: rgb(43, 43, 241);
+  color: rgb(255, 255, 255) ;
+  border-color: black;
+  text-shadow:2px 2px 4px #070606;
+  box-shadow: 4px 4px 10px #070606;
+  }
+#img {
+  text-align: center;
+}
+
+
+
+  
+  
+
+  
