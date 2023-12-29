@@ -6,7 +6,7 @@
         "TemperatureF": "48°F",
         "TemperatureC": "9°C",
         "WindSpeedMph": "7 Mph",
-        "WindSpeedKmh":"11 km/h",
+        "WindSpeedKmh":"11 Km/h",
         "Condition": "Sunny"
       }, 
       {
@@ -15,7 +15,7 @@
         "TemperatureF": "68°F",
         "TemperatureC": "20°C",
         "WindSpeedMph": "3 Mph",
-        "WindSpeedKmh":"5 km/h",
+        "WindSpeedKmh":"5 Km/h",
         "Condition": "Sunny"
       }, 
       {
@@ -33,7 +33,7 @@
         "TemperatureF": "76°F",
         "TemperatureC": "24°C",
         "WindSpeedMph": "20 Mph",
-        "WindSpeedKmh":"35 km/h",
+        "WindSpeedKmh":"35 Km/h",
         "Condition": "Light Rain/Wind"
       },
       {
@@ -42,7 +42,7 @@
         "TemperatureF": "50°F",
         "TemperatureC": "10°C",
         "WindSpeedMph": "6 Mph",
-        "WindSpeedKmh":"10 km/h",
+        "WindSpeedKmh":"10 Km/h",
         "Condition": "Fair"
       }
     ]
