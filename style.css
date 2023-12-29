@@ -44,6 +44,14 @@ body {
     display: none;
   }
 
+  #windSpeed-Mph {
+    display: block;
+  }
+
+  #windSpeed-Kmh {
+    display: none;
+  }
+
   img.loading {
     width: 200px;
     height: 200px;
