@@ -1,5 +1,9 @@
 body {
   background-color: rgb(232, 179, 109);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
  }
 
 .list ul {
@@ -32,9 +36,20 @@ body {
   box-shadow: 4px 4px 10px #070606;
   }
 
+  #temp-f {
+    display: block;
+  }
 
+  #temp-c {
+    display: none;
+  }
 
-
+  img.loading {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    opacity: 0.5;
+  }
   
   
 

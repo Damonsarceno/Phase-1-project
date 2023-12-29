@@ -38,28 +38,35 @@ function renderCitys (city) {
     const button = document.createElement('button');
     button.textContent = "Delete City"
 
-  li.append(h3, pTemp, pWind, pCondition, button);
+  li.append(h3, pTemp, pTempC, pWind, pCondition, button);
   document.getElementById('city-list').append(li);
   
   button.addEventListener('click' , (e) => {
     li.remove();
-  })
+  });
+  
+  li.addEventListener('mouseover', (e) => {
+    pTemp.style.display = 'none';
+    pTempC.style.display = 'block';
+  });
+  li.addEventListener('mouseout', (e) => {
+    pTemp.style.display = 'block';
+    pTempC.style.display = 'none';
+  });
 }
   
  let image = document.createElement('img');
     image.src = 'https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg';
+    image.classList.add('loading');
     image.addEventListener('load', (e) => {
-      document.body.append(image);
+      image.classList.remove('loading');
     });
+      document.body.append(image);
+   
 
     
    
   
-  //li.addEventListener('mouseover', () => {
-     //console.log('mouseover');
-//      if (pTemp === TemperatureF) {
-//        pTemp
-//    }
-//  });
+ 
 
 
