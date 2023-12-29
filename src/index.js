@@ -1,7 +1,7 @@
 
 
 
-fetch("http://localhost:3000/City's")
+fetch("http://localhost:3000/Cities")
 .then(res => res.json())
 .then(citys => {
   citys.forEach((city => renderCitys(city)));
@@ -19,10 +19,12 @@ function renderCitys (city) {
    
 
     const pTemp = document.createElement('p');
+    pTemp.id = 'temp-f';
     pTemp.textContent = city.TemperatureF
     
 
     const pTempC = document.createElement('p');
+    pTempC.id = 'temp-c';
     pTempC.textContent = city.TemperatureC
     
 
