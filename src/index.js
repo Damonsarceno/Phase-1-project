@@ -28,8 +28,13 @@ function renderCitys (city) {
     pTempC.textContent = city.TemperatureC
     
 
-    const pWind = document.createElement('p');
-    pWind.textContent = city.WindSpeedMph
+    const pWindMph = document.createElement('p');
+    pWindMph.id = 'windSpeed-Mph';
+    pWindMph.textContent = city.WindSpeedMph
+
+    const pWindKmh = document.createElement('p');
+    pWindKmh.id = 'windSpeed-Kmh';
+    pWindKmh.textContent = city.WindSpeedKmh
 
     
     const pCondition = document.createElement('p');
@@ -38,7 +43,7 @@ function renderCitys (city) {
     const button = document.createElement('button');
     button.textContent = "Delete City"
 
-  li.append(h3, pTemp, pTempC, pWind, pCondition, button);
+  li.append(h3, pTemp, pTempC, pWindMph, pWindKmh, pCondition, button);
   document.getElementById('city-list').append(li);
   
   button.addEventListener('click' , (e) => {
