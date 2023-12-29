@@ -58,6 +58,15 @@ function renderCitys (city) {
     pTemp.style.display = 'block';
     pTempC.style.display = 'none';
   });
+
+  li.addEventListener('mousemove', (e) => {
+    pWindMph.style.display = 'none';
+    pWindKmh.style.display = 'block';
+  });
+  li.addEventListener('mouseout', (e) => {
+    pWindMph.style.display = 'block';
+    pWindKmh.style.display = 'none';
+  })
 }
   
  let image = document.createElement('img');
