@@ -1,5 +1,5 @@
 
-
+document.addEventListener('DOMContentLoaded', () => {
 
 fetch("http://localhost:3000/Cities")
 .then(res => res.json())
@@ -7,6 +7,13 @@ fetch("http://localhost:3000/Cities")
   citys.forEach((city => renderCitys(city)));
 
 })
+
+function deleteCity(button) {
+    button.addEventListener('click' , () => {
+      const li = button.parentElement;
+      li.remove();
+    });
+}
 
 function renderCitys (city) {
 
@@ -46,41 +53,41 @@ function renderCitys (city) {
   li.append(h3, pTemp, pTempC, pWindMph, pWindKmh, pCondition, button);
   document.getElementById('city-list').append(li);
   
-  button.addEventListener('click' , (e) => {
-    li.remove();
-  });
-  
-  li.addEventListener('mouseover', (e) => {
+    deleteCity(button);
+
+  function handleTempMouseOver(e)  {
     pTemp.style.display = 'none';
     pTempC.style.display = 'block';
-  });
-  li.addEventListener('mouseout', (e) => {
+  };
+  function handleTempMouseOut(e)  {
     pTemp.style.display = 'block';
     pTempC.style.display = 'none';
-  });
+  };
 
-  li.addEventListener('mousemove', (e) => {
+  function handleWindMouseOver(e)  {
     pWindMph.style.display = 'none';
     pWindKmh.style.display = 'block';
-  });
-  li.addEventListener('mouseout', (e) => {
+  };
+  function handleWindMouseOut(e)  {
     pWindMph.style.display = 'block';
     pWindKmh.style.display = 'none';
-  })
-}
-  
- let image = document.createElement('img');
-    image.src = 'https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg';
-    image.classList.add('loading');
-    image.addEventListener('load', (e) => {
-      image.classList.remove('loading');
-    });
-      document.body.append(image);
-   
+  };
 
-    
+  li.addEventListener('mouseover', handleTempMouseOver);
+  li.addEventListener('mouseout', handleTempMouseOut);
+  li.addEventListener('mouseover', handleWindMouseOver);
+  li.addEventListener('mouseout', handleWindMouseOut); 
+
+  function createImage(url, className) {
+    let image = document.createElement('img');
+    image.src = url;
+    image.addEventListener('load', () => {
+      document.body.append(image);
+    });
+  }
+createImage('https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg', 'loading' );
+}      
    
-  
- 
+})
 
 
