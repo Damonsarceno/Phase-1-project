@@ -52,13 +52,7 @@ body {
     display: none;
   }
 
-  img.loading {
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
-    opacity: 0.5;
-  }
-  
+
   
 
   
