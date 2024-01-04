@@ -1,5 +1,5 @@
 
-document.addEventListener('DOMContentLoaded', () => {
+
 
 fetch("http://localhost:3000/Cities")
 .then(res => res.json())
@@ -88,7 +88,7 @@ function renderCitys (city) {
     });
   }
 createImage('https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg', 'loading' );
-});      
+     
    
 
 
