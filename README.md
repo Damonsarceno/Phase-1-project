@@ -4,6 +4,9 @@ Phase-1 Project
 
 This is a simple web app pulling from a local .json file showing some weather conditions in 5 different cities. 
 
+## Features
+
+When moving the mouse over the different cities the temperature will change from fahrenheit to celcius and the wind speed will change from Mph to Kph. You can also delete any of the 5 cities using the delete city button below.
 
 
 ## Blog
