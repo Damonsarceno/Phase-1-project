@@ -80,14 +80,14 @@ function renderCitys (city) {
 
  
 };
-  function createImage(url, className) {
+  function createImage(url) {
     let image = document.createElement('img');
     image.src = url;
     image.addEventListener('load', () => {
       document.body.appendChild(image);
     });
   }
-createImage('https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg', 'loading' );
+createImage('https://www.2ec.com.au/wp-content/uploads/sites/4/2022/08/MicrosoftTeams-image-21.jpg');
      
    
 
